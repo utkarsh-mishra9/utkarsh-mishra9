@@ -1,0 +1,6 @@
+# Enable GitHub Pages
+theme: jekyll-theme-minimal
+title: Utkarsh Mishra - Personal Website
+description: Personal website showcasing research, publications, and professional experience
+url: https://utkarsh-mishra9.github.io
+baseurl: /utkarsh-mishra9

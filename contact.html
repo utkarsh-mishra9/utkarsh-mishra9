@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Utkarsh Mishra</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="nav-logo">Utkarsh Mishra</a>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="publications.html" class="nav-link">Publications</a>
+                </li>
+                <li class="nav-item">
+                    <a href="research.html" class="nav-link">Research</a>
+                </li>
+                <li class="nav-item">
+                    <a href="extracurriculars.html" class="nav-link">Extra-curriculars</a>
+                </li>
+                <li class="nav-item">
+                    <a href="contact.html" class="nav-link active">Contact</a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <main class="main-content">
+        <section class="section">
+            <div class="container">
+                <h1 class="section-title">Contact Me</h1>
+                <p style="text-align: center; color: #64748b; margin-bottom: 3rem; font-size: 1.1rem;">
+                    I'd love to hear from you! Whether you're interested in collaboration, have questions about my research, or just want to connect.
+                </p>
+
+                <!-- Contact Information -->
+                <div class="contact-info">
+                    <h3>Get in Touch</h3>
+                    <p><strong>Email:</strong> utkarsh.mishra@example.edu</p>
+                    <p><strong>LinkedIn:</strong> <a href="https://linkedin.com/in/utkarsh-mishra" target="_blank" style="color: #2563eb;">linkedin.com/in/utkarsh-mishra</a></p>
+                    <p><strong>GitHub:</strong> <a href="https://github.com/utkarsh-mishra9" target="_blank" style="color: #2563eb;">github.com/utkarsh-mishra9</a></p>
+                    <p><strong>Research Profile:</strong> <a href="https://scholar.google.com/citations?user=example" target="_blank" style="color: #2563eb;">Google Scholar</a></p>
+                    <p><strong>Office Hours:</strong> Tuesdays & Thursdays, 2:00 PM - 4:00 PM (by appointment)</p>
+                </div>
+
+                <!-- Contact Form -->
+                <form id="contact-form" class="contact-form">
+                    <h3 style="margin-bottom: 2rem; text-align: center; color: #1e293b;">Send me a message</h3>
+                    
+                    <div class="form-group">
+                        <label for="name">Name *</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email *</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="subject">Subject</label>
+                        <input type="text" id="subject" name="subject" placeholder="What's this about?">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Message *</label>
+                        <textarea id="message" name="message" rows="6" required placeholder="Tell me about your project, question, or how we might collaborate..."></textarea>
+                    </div>
+
+                    <div class="form-group">
+                        <button type="submit" class="btn btn-primary" style="width: 100%; background-color: #2563eb; color: white; border: none; padding: 15px;">
+                            Send Message
+                        </button>
+                    </div>
+                </form>
+
+                <!-- Additional Information -->
+                <div style="background: #f8fafc; padding: 2rem; border-radius: 12px; margin-top: 3rem;">
+                    <h3 style="margin-bottom: 1rem; color: #1e293b;">What I'm interested in discussing:</h3>
+                    <ul style="color: #64748b; line-height: 1.8;">
+                        <li>Research collaboration opportunities</li>
+                        <li>Machine learning and data science projects</li>
+                        <li>Open source contributions</li>
+                        <li>Speaking engagements and workshops</li>
+                        <li>Career advice for students</li>
+                        <li>Technical consulting opportunities</li>
+                        <li>Academic partnerships and exchanges</li>
+                    </ul>
+                </div>
+
+                <!-- Response Time Note -->
+                <div style="text-align: center; margin-top: 2rem; padding: 1.5rem; background: #eff6ff; border-radius: 8px; border-left: 4px solid #2563eb;">
+                    <p style="color: #1e40af; margin: 0;">
+                        <strong>Response Time:</strong> I typically respond to emails within 24-48 hours. 
+                        For urgent matters, please mention "URGENT" in your subject line.
+                    </p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Utkarsh Mishra. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
